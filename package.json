@@ -1,0 +1,14 @@
+{
+  "name": "skycastle",
+  "version": "0.0.1",
+  "description": "Project code 'SkyCastle'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "devDependencies": {
+    "lerna": "^3.10.7"
+  }
+}

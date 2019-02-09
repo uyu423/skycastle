@@ -18,7 +18,7 @@ export class Server {
     app.get('/', (request: Request, response: Response) => {
       // test controller
       response.json({
-        message: 'SkyCastle is JTBC Drama (2018~2019)',
+        message: 'Sky Castle is JTBC Drama in Republic of Korea. (2018~2019)',
       });
     });
 

@@ -4,7 +4,7 @@
   "description": "SkyCastle API Server",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 startOrReload pm2.config.js --env production",
+    "start": "npx pm2 startOrReload pm2.config.js --env production",
     "server": "npx maid server",
     "build": "npx maid build",
     "dist": "npx maid dist",

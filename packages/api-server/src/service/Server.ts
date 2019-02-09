@@ -12,7 +12,7 @@ export class Server {
     // Config Bootstrap
     Config.bootstrap();
 
-    // 미들 웨어
+    // 미들웨어
 
     // 라우팅
     app.get('/', (request: Request, response: Response) => {
@@ -25,7 +25,7 @@ export class Server {
     return new Server(app);
   }
 
-  constructor(private readonly _app: Express) {
+  private constructor(private readonly _app: Express) {
     _app.listen(Config.app.port, () => {
       log('RUN_MODE', Config.mode);
       log(`SkyCastle API Sever on http://localhost:${Config.app.port}`);

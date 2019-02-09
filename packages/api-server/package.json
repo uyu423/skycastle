@@ -4,8 +4,32 @@
   "description": "SkyCastle API Server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "npx maid server",
+    "start": "npx maid start"
   },
-  "author": "Yowu",
-  "license": "SEE LICENSE IN LICENSE.md"
+  "author": "Yu Yongwoo <uyu423@gmail.com> (http://facebook.com/luckyyowu)",
+  "contributors": [
+    "Someone <foo@bar.xyz>"
+  ],
+  "engines": { "node": "^10.13.0" },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "devDependencies": {
+    "@types/debug": "^4.1.0",
+    "@types/express": "^4.16.1",
+    "cross-env": "^5.2.0",
+    "maid": "^0.3.0",
+    "nodemon": "^1.18.10",
+    "prettier": "^1.16.4",
+    "ts-loader": "^5.3.3",
+    "ts-node": "^8.0.2",
+    "tslint": "^5.12.1",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "pm2": "^3.2.9"
+  }
 }
